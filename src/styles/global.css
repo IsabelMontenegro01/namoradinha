@@ -1,0 +1,298 @@
+/* ============================================================
+   GLOBAL.CSS
+   Aqui ficam as variáveis (tokens) usadas no site inteiro:
+   cores, fontes, espaçamentos. Se quiser mudar a paleta geral
+   do site, é AQUI que você mexe — as mudanças se propagam
+   para todas as páginas.
+
+   Cada capítulo (eu.css, voce.css, nos.css, pedido.css) usa
+   essas mesmas variáveis, mas pode sobrescrever o "--accent"
+   para ter sua própria identidade visual.
+   ============================================================ */
+
+:root {
+  /* --- cores base (fundo tipo "papel escuro / carta noturna") --- */
+  --color-bg: #14121c;          /* fundo principal, quase preto-azulado */
+  --color-bg-soft: #1c1826;     /* fundo levemente mais claro, para cartões/seções */
+  --color-paper: #f3ead9;       /* cor do texto principal, tom de papel/pergaminho */
+  --color-paper-dim: #b9ae9a;   /* texto secundário, mais apagado */
+  --color-line: rgba(243, 234, 217, 0.14); /* linhas divisórias discretas */
+
+  /* --- cor de destaque de cada capítulo (trocar aqui muda o clima da página) --- */
+  --accent-eu: #7f97ab;      /* Capítulo EU: azul-acinzentado, tech/engenharia */
+  --accent-voce: #cf8f7c;    /* Capítulo VOCÊ: rosa-argila, delicado */
+  --accent-nos: #d1a24a;     /* Capítulo NÓS: dourado quente, mistura dos dois */
+  --accent-pedido: #e0b84c;  /* Capítulo PEDIDO: dourado cinematográfico */
+  --accent: var(--accent-eu); /* valor padrão, cada página sobrescreve este */
+
+  /* --- tipografia --- */
+  --font-display: 'Fraunces', Georgia, serif;   /* títulos: serifada com personalidade */
+  --font-body: 'Inter', -apple-system, sans-serif; /* corpo do texto */
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace; /* datas, protocolos, detalhes técnicos */
+
+  /* --- espaçamento --- */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.75rem;
+  --space-4: 2.75rem;
+  --space-5: 4.5rem;
+  --space-6: 7rem;
+
+  /* --- outros --- */
+  --radius: 2px;               /* propositalmente quase reto, clima editorial */
+  --transition-slow: 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-medium: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+  --max-width: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  margin: 0 0 var(--space-3) 0;
+  color: var(--color-paper);
+}
+
+p {
+  margin: 0 0 var(--space-3) 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+/* --- página / seção padrão que todo capítulo usa --- */
+.page {
+  min-height: 100vh;
+  width: 100%;
+  padding: var(--space-5) var(--space-3) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-content {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+/* --- eyebrow: pequeno rótulo acima dos títulos (usa a fonte mono, clima "de engenheira") --- */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-2);
+}
+
+/* --- botões de navegação (usados em todos os capítulos) --- */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-5);
+  gap: var(--space-2);
+}
+
+.btn {
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-paper);
+  font-size: 0.95rem;
+  padding: 0.9rem 1.6rem;
+  border-radius: var(--radius);
+  transition: border-color var(--transition-medium), transform var(--transition-medium), background var(--transition-medium);
+  letter-spacing: 0.01em;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--color-bg);
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.08);
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--color-paper-dim);
+  padding-left: 0;
+}
+
+.btn-ghost:hover {
+  color: var(--accent);
+}
+
+/* --- moldura de foto, usada pelo componente <PhotoFrame> --- */
+.photo-frame {
+  margin: var(--space-4) 0;
+  border: 1px solid var(--color-line);
+  overflow: hidden;
+  background: var(--color-bg-soft);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.85) contrast(1.02);
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 10px,
+      rgba(243, 234, 217, 0.03) 10px,
+      rgba(243, 234, 217, 0.03) 20px
+    ),
+    var(--color-bg-soft);
+  border: 1px dashed var(--color-line);
+}
+
+.photo-placeholder-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-paper-dim);
+  letter-spacing: 0.04em;
+}
+
+.photo-frame figcaption {
+  padding: var(--space-1) var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-paper-dim);
+  border-top: 1px solid var(--color-line);
+}
+
+/* --- animação de entrada suave usada pelo componente <Reveal> --- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity var(--transition-slow), transform var(--transition-slow);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --- distintivo discreto do Yoda (easter egg) --- */
+.yoda-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+  opacity: 0.85;
+}
+
+.yoda-badge img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+.yoda-badge span {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-paper-dim);
+  letter-spacing: 0.03em;
+}
+
+/* --- controle de música, fixo no canto inferior direito --- */
+.music-player {
+  position: fixed;
+  bottom: var(--space-2);
+  right: var(--space-2);
+  z-index: 50;
+}
+
+.music-toggle {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-line);
+  background: rgba(20, 18, 28, 0.7);
+  backdrop-filter: blur(6px);
+  color: var(--color-paper-dim);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-medium), border-color var(--transition-medium);
+}
+
+.music-toggle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* --- foco visível para acessibilidade / navegação por teclado --- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* --- responsividade base: em telas pequenas, reduz respiros --- */
+@media (max-width: 640px) {
+  .page {
+    padding: var(--space-4) var(--space-2) var(--space-5);
+  }
+  h1 {
+    font-size: 2rem !important;
+  }
+}

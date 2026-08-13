@@ -1,0 +1,46 @@
+/* ============================================================
+   INTRO.CSS — a tela inicial ("Oi, meu amor")
+   ============================================================ */
+
+.intro-page {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 30%, #1c1930 0%, var(--color-bg) 70%);
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+}
+
+.intro-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--color-paper);
+  margin-bottom: var(--space-2);
+}
+
+.intro-line:first-child {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.intro-content .btn {
+  margin-top: var(--space-4);
+}
+
+@media (max-width: 640px) {
+  .intro-line {
+    font-size: 1.2rem;
+  }
+  .intro-line:first-child {
+    font-size: 1.55rem;
+  }
+}

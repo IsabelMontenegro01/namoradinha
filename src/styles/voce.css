@@ -1,0 +1,40 @@
+/* ============================================================
+   VOCE.CSS — capítulo 2
+   Identidade visual: mais delicada e pessoal, tom rosa-argila.
+   ============================================================ */
+
+.voce-page {
+  --accent: var(--accent-voce);
+  background: radial-gradient(ellipse at 80% 0%, rgba(207, 143, 124, 0.07), transparent 55%),
+    var(--color-bg);
+}
+
+.voce-page h1 {
+  font-size: 2.4rem;
+  max-width: 600px;
+}
+
+.voce-intro {
+  margin: var(--space-3) 0 var(--space-4);
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--accent);
+}
+
+.voce-intro-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--color-paper);
+}
+
+.voce-closing {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-line);
+}
+
+.voce-closing-line {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--accent);
+}

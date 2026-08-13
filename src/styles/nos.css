@@ -1,0 +1,175 @@
+/* ============================================================
+   NOS.CSS — capítulo 3
+   Identidade visual: mistura das duas anteriores (azul + rosa
+   viram um dourado quente). Contém a timeline da nossa história
+   e o elemento de assinatura: os protocolos, em estilo "diff de
+   código", com destaque para o dourado.
+   ============================================================ */
+
+.nos-page {
+  --accent: var(--accent-nos);
+}
+
+.nos-page h1 {
+  font-size: 2.3rem;
+  max-width: 640px;
+}
+
+/* --- timeline --- */
+.nos-timeline {
+  margin: var(--space-4) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.nos-timeline-item {
+  padding-left: var(--space-3);
+  border-left: 1px solid var(--color-line);
+  position: relative;
+}
+
+.nos-timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -4.5px;
+  top: 0.35rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.nos-date {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-bottom: var(--space-1);
+  letter-spacing: 0.03em;
+}
+
+.nos-bridge {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.35rem;
+  margin: var(--space-4) 0 var(--space-3);
+}
+
+/* --- ProtocolList: o elemento de assinatura da página, estilo
+   "changelog de código" listando protocolos sendo riscados --- */
+.protocol-list {
+  margin: var(--space-3) 0 var(--space-5);
+  border: 1px solid var(--color-line);
+  background: var(--color-bg-soft);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  overflow: hidden;
+}
+
+.protocol-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-line);
+  color: var(--color-paper-dim);
+  font-size: 0.75rem;
+}
+
+.protocol-header-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+
+.protocol-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.protocol-list li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-2);
+  align-items: baseline;
+  padding: 0.7rem var(--space-3);
+  border-bottom: 1px solid var(--color-line);
+  color: var(--color-paper-dim);
+  transition: color var(--transition-medium);
+}
+
+.protocol-list li:last-child {
+  border-bottom: none;
+}
+
+.protocol-id {
+  color: var(--color-paper-dim);
+  opacity: 0.6;
+}
+
+.protocol-text {
+  color: var(--color-paper);
+  transition: color var(--transition-medium), text-decoration-color var(--transition-medium);
+}
+
+.protocol-status {
+  font-size: 0.7rem;
+  color: var(--accent);
+  opacity: 0;
+  transition: opacity var(--transition-medium);
+}
+
+.protocol-list li.is-broken .protocol-text {
+  color: var(--color-paper-dim);
+  text-decoration: line-through;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+}
+
+.protocol-list li.is-broken .protocol-status {
+  opacity: 1;
+}
+
+.protocol-footer {
+  padding: var(--space-2) var(--space-3);
+  border-top: 1px solid var(--color-line);
+  color: var(--color-paper-dim);
+  font-size: 0.78rem;
+}
+
+.protocol-footer strong {
+  color: var(--accent);
+}
+
+/* --- reflexão + fechamento --- */
+.nos-reflection {
+  margin-top: var(--space-3);
+}
+
+.nos-closing {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-line);
+}
+
+.nos-closing-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .protocol-list li {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .protocol-status {
+    opacity: 1;
+    font-size: 0.65rem;
+  }
+}

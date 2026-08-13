@@ -1,0 +1,32 @@
+/* ============================================================
+   EU.CSS — capítulo 1
+   Identidade visual: azul-acinzentado, referência discreta a
+   tecnologia/engenharia (grid de fundo bem sutil, tipografia mono
+   nos detalhes).
+   ============================================================ */
+
+.eu-page {
+  --accent: var(--accent-eu);
+  background-image: linear-gradient(rgba(127, 151, 171, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(127, 151, 171, 0.05) 1px, transparent 1px);
+  background-size: 42px 42px;
+  background-position: center top;
+}
+
+.eu-page h1 {
+  font-size: 2.4rem;
+  max-width: 620px;
+}
+
+.eu-closing {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-line);
+}
+
+.eu-closing-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
