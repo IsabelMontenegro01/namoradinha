@@ -29,11 +29,6 @@
   z-index: 1;
 }
 
-.voce-page h1 {
-  font-size: 2.4rem;
-  max-width: 600px;
-}
-
 .voce-intro {
   margin: var(--space-3) 0 var(--space-4);
   padding-left: var(--space-3);

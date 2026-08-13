@@ -3,10 +3,11 @@ import PhotoFrame from '../components/PhotoFrame.jsx'
 import Navigation from '../components/Navigation.jsx'
 import { eu } from '../data/story.js'
 import '../styles/eu.css'
+import fundoEu from '../assets/images/eu-fundo.jpg'
 
 export default function Eu({ onBack, onContinue }) {
   return (
-    <div className="page eu-page">
+    <div className="page eu-page" style={{ backgroundImage: `url(${fundoEu  })` }}>
       <div className="page-content">
         <Reveal><span className="eyebrow">{eu.eyebrow}</span></Reveal>
         <Reveal><h1>{eu.title}</h1></Reveal>
