@@ -4,10 +4,11 @@ import Navigation from '../components/Navigation.jsx'
 import YodaBadge from '../components/YodaBadge.jsx'
 import { voce } from '../data/story.js'
 import '../styles/voce.css'
+import fundoVoce from '../assets/images/voce-fundo.jpg'
 
 export default function Voce({ onBack, onContinue }) {
   return (
-    <div className="page voce-page">
+    <div className="page voce-page" style={{ backgroundImage: `url(${fundoVoce})` }}>
       <div className="page-content">
         <Reveal><span className="eyebrow">{voce.eyebrow}</span></Reveal>
         <Reveal><h1>{voce.title}</h1></Reveal>
