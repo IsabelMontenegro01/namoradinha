@@ -11,19 +11,19 @@
    ============================================================ */
 
 :root {
-  /* --- cores base (fundo tipo "papel escuro / carta noturna") --- */
-  --color-bg: #14121c;          /* fundo principal, quase preto-azulado */
-  --color-bg-soft: #1c1826;     /* fundo levemente mais claro, para cartões/seções */
-  --color-paper: #f3ead9;       /* cor do texto principal, tom de papel/pergaminho */
-  --color-paper-dim: #b9ae9a;   /* texto secundário, mais apagado */
-  --color-line: rgba(243, 234, 217, 0.14); /* linhas divisórias discretas */
+  /* --- cores base --- */
+  --color-bg: #1c1522;          /* fundo principal — roxo-ameixa bem escuro */
+  --color-bg-soft: #251c2d;     /* fundo de cartões/seções */
+  --color-paper: #f2e8dc;       /* texto principal — creme quente */
+  --color-paper-dim: #b6a693;   /* texto secundário */
+  --color-line: rgba(242, 232, 220, 0.14);
 
-  /* --- cor de destaque de cada capítulo (trocar aqui muda o clima da página) --- */
-  --accent-eu: #7f97ab;      /* Capítulo EU: azul-acinzentado, tech/engenharia */
-  --accent-voce: #cf8f7c;    /* Capítulo VOCÊ: rosa-argila, delicado */
-  --accent-nos: #d1a24a;     /* Capítulo NÓS: dourado quente, mistura dos dois */
-  --accent-pedido: #e0b84c;  /* Capítulo PEDIDO: dourado cinematográfico */
-  --accent: var(--accent-eu); /* valor padrão, cada página sobrescreve este */
+  /* --- destaque de cada capítulo --- */
+  --accent-eu: #8b7aa0;      /* roxo-lavanda acinzentado, neutro */
+  --accent-voce: #cda3dd;    /* lilás — claro e suave */
+  --accent-nos: #a17a52;     /* marrom quente, ponto de mistura */
+  --accent-pedido: #8a5aa8;  /* roxo profundo, mais intenso */
+  --accent: var(--accent-eu);
 
   /* --- tipografia --- */
   --font-display: 'Fraunces', Georgia, serif;   /* títulos: serifada com personalidade */

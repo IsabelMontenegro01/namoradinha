@@ -15,8 +15,8 @@ export const intro = {
   lines: [
     'Oi, meu amor.',
     'Hoje eu queria te contar uma história.',
-    'Uma história que começou sem eu saber muito bem onde ia dar...',
-    'e que acabou chegando até aqui.',
+    'Uma história que nem imaginávamos que daria em alguma coisa...',
+    'maaaas, felizmente nos trouxe até aqui.',
   ],
   button: 'começar a história →',
 }

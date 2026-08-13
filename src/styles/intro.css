@@ -7,7 +7,7 @@
   align-items: center;
   min-height: 100vh;
   text-align: center;
-  background: radial-gradient(ellipse at 50% 30%, #1c1930 0%, var(--color-bg) 70%);
+  background: radial-gradient(ellipse at 50% 30%, #2a2032 0%, var(--color-bg) 70%);
 }
 
 .intro-content {
