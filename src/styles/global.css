@@ -21,7 +21,7 @@
   /* --- destaque de cada capítulo --- */
   --accent-eu: #8b7aa0;      /* roxo-lavanda acinzentado, neutro */
   --accent-voce: #cda3dd;    /* lilás — claro e suave */
-  --accent-nos: #a17a52;     /* marrom quente, ponto de mistura */
+  --accent-nos: #8a5a3c;     /* marrom quente, ponto de mistura */
   --accent-pedido: #8a5aa8;  /* roxo profundo, mais intenso */
   --accent: var(--accent-eu);
 

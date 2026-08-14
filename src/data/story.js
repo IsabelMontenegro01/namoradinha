@@ -16,7 +16,7 @@ export const intro = {
     'Oi, meu amor.',
     'Hoje eu queria te contar uma história.',
     'Uma história que nem imaginávamos que daria em alguma coisa...',
-    'maaaas, felizmente nos trouxe até aqui.',
+    'maaaas, felizmente, acabou nos trazendo até aqui.',
   ],
   button: 'começar a história →',
 }
