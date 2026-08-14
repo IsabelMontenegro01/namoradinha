@@ -2,6 +2,7 @@ import Reveal from '../components/Reveal.jsx'
 import PhotoFrame from '../components/PhotoFrame.jsx'
 import Navigation from '../components/Navigation.jsx'
 import ProtocolList from '../components/ProtocolList.jsx'
+import fundoNos from '../assets/images/nos-fundo.jpg'
 import {
   nosIntro,
   nosTimeline,
@@ -16,6 +17,7 @@ import '../styles/nos.css'
 export default function Nos({ onBack, onContinue }) {
   return (
     <div className="page nos-page">
+      <div className="nos-page-bg" style={{ backgroundImage: `url(${fundoNos})` }} />
       <div className="page-content">
         <Reveal><span className="eyebrow">{nosIntro.eyebrow}</span></Reveal>
         <Reveal><h1>{nosIntro.title}</h1></Reveal>
