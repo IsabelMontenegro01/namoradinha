@@ -15,7 +15,7 @@ export const intro = {
   lines: [
     'Oi, meu amor.',
     'Hoje eu queria te contar uma história.',
-    'Uma história que nem imaginávamos que daria em alguma coisa...',
+    'Uma história que, há 3 meses, nem imaginávamos que daria em alguma coisa...',
     'maaaas, felizmente, acabou nos trazendo até aqui.',
   ],
   button: 'começar a história →',
@@ -41,7 +41,7 @@ export const eu = {
 }
 
 export const voce = {
-  eyebrow: 'capítulo 02 — você',
+  eyebrow: 'capítulo 02 — meu amor',
   title: 'Agora deixa eu falar de você.',
   photo: { file: 'nicole.jpg', caption: 'você, do jeito que eu mais gosto de olhar' },
   intro: [
@@ -130,25 +130,23 @@ export const nosClosing = [
 export const nosButton = 'tenho uma pergunta para você →'
 
 export const pedido = {
-  warningEyebrow: 'capítulo 04 — o pedido',
+  warningEyebrow: 'capítulo 04',
   warningTitle: 'Cuidado: conteúdo sensível',
   warningText: 'A partir daqui não tem mais volta.',
   warningButton: 'continuar por sua conta e risco →',
   loadingMessages: [
     'Preparando pergunta importante...',
-    'Verificando coragem...',
-    'Consultando especialistas...',
-    'Um mestre Jedi aprova essa decisão...',
+    'Verificando batimentos cardíacos...',
   ],
   question: {
     name: 'Nicole Ferreira da Silva,',
-    ask: 'você quer oficialmente virar minha namorada?',
+    ask: 'você quer oficialmente virar minha namorada linda perfeita gostosa?',
   },
   yes: 'SIM ❤️',
   no: 'NÃO',
   successTitle: 'NAMORADAS OFICIALMENTE. ❤️',
   successParagraphs: [
     'Eu te amo, Nicole.',
-    'E estou muito feliz que a próxima parte dessa história seja com você.',
+    'E não vejo a hora de chegarmos ao próximo pedido...',
   ],
 }
