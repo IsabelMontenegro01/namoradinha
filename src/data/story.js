@@ -14,17 +14,15 @@
 export const intro = {
   lines: [
     'Oi, meu amor.',
-    'Hoje eu queria te contar uma história.',
-    'Uma história que, há 3 meses, nem imaginávamos que daria em alguma coisa...',
-    'maaaas, felizmente, acabou nos trazendo até aqui.',
+    'Hoje eu queria te contar uma história que, há 3 meses, nem imaginei que daria em alguma coisa... maaaas, felizmente, acabou nos trazendo até aqui.',
   ],
   button: 'começar a história →',
 }
 
 export const eu = {
   eyebrow: 'capítulo 01 — eu',
-  title: 'Antes de falar sobre nós, você precisa conhecer a pessoa que começou essa história.',
-  photo: { file: 'isabel.jpg', caption: 'eu, antes de saber que você ia aparecer' },
+  title: 'Antes de falar de nós duas, vou reapresentar a pessoa que começou essa história.',
+  photo: { file: 'isabel1.jpg', caption: 'eu, antes de saber que você ia aparecer' },
   paragraphs: [
     'Meu nome é Isabel. Tenho 25 anos, faço Engenharia da Computação e, na época em que te conheci, eu já estava solteira havia um ano e um mês.',
     'Não foi um ano de sofrimento nem de espera. Foi um ano de aprender a ficar bem sozinha — e de decidir, com bastante convicção, que da próxima vez eu ia fazer diferente.',

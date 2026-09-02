@@ -13,7 +13,7 @@ export default function Eu({ onBack, onContinue }) {
         <Reveal><h1>{eu.title}</h1></Reveal>
 
         <Reveal>
-          <PhotoFrame file={eu.photo.file} caption={eu.photo.caption} />
+          <PhotoFrame file={eu.photo.file} caption={eu.photo.caption} aspect="1080 / 1200" />
         </Reveal>
 
         {eu.paragraphs.map((paragraph, i) => (
