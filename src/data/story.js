@@ -24,12 +24,11 @@ export const eu = {
   title: 'Antes de falar de nós duas, vou reapresentar a pessoa que começou essa história.',
   photo: { file: 'isabel1.jpg', caption: 'eu, antes de saber que você ia aparecer' },
   paragraphs: [
-    'Pra você, Bebel, uma gaiatinha de 25 anos, nerdolinha que faz Eng Comp eee que está há 1 ano e meio no TÍTULO de solteira.',
+    'Pra você, Bebel, uma gaiatinha de 25 anos, nerdolinha eee que está há 1 ano e meio no TÍTULO de solteira.',
     'Tinha certeza de que demoraria ainda um tempinho para se apaixonar, se entregar, e achar alguém que prestasse e que valesse a pena sair da paz de solterice.',
-    'Ela tinha alguns protocolos pessoais, que criou na cabeça: ir com calma, observar o dia a dia da pessoa, como funcionariam juntas, antes de tomar um passo importante.',
-    'Queria alguém que a acompanhasse em todos os rolês, alguém que a incentivasse a ser melhor, que respeitasse a sua individualidade.',
+    'Ela tinha alguns protocolos criados na cabeça dela: ir com calma, observar o dia a dia da pessoa para ver como funcionariam juntas, saber se na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar, observar os relacionamtos dela (amoroso, com os pais, amizades), antes de tomar um passo importante. Protocolos de não demonstar tanto e tão rápido, demorar 3 meses para falar eu te amo e uns 6 meses para pedir em namoro...',
     'Ela também tinha dificuldade de falar quando alguma coisa a incomodava. Preferia fingir que nada tava acontecendo (ou fazer um bico kakakka. Isso muito porque ela tinha um certo medo de entrar em algo novo e não estar a disposta a ser a melhor versão dela.',
-    'Então ela não queria simplesmente entrar em um relacionamento porque achava a pessoa bonita e comprometida. Ela queria saber se na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar. Queria ver como era o relacionamento da outra pessoa em casa, com os pais, e a relação entre amizades.',
+    'Queria alguém que a acompanhasse em todos os rolês, alguém que a incentivasse a ser melhor, que respeitasse a sua individualidade.',
   ],
   closing: [
     'Ela tinha algumas certezas sobre como queria que fosse o próximo relacionamento.',
