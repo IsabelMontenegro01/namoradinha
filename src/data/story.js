@@ -104,35 +104,33 @@ export const nosBridge = [
 export const protocols = [
   { id: '01', text: 'Ir com calma.' },
   { id: '02', text: 'Não se apaixonar rápido demais.' },
-  { id: '03', text: 'Esperar pelo menos três meses antes de dizer "eu te amo".' },
-  { id: '04', text: 'Não criar expectativas.' },
-  { id: '05', text: 'Não perder minha individualidade.' },
+  { id: '03', text: 'Não criar expectativas.' },
+  { id: '04', text: 'Esperar pelo menos três meses antes de dizer "eu te amo".' },
+  { id: '05', text: 'Esperar pelo menos seis meses pedir em namoro.' },
 ]
 
 export const nosReflection = [
   'Eu queria esperar uns três meses pra dizer que te amava. Disse com dois.',
-  'Eu tinha medo de me perder em um relacionamento. Com você, comecei a perceber que talvez dividir a vida com alguém não signifique perder a minha — talvez signifique encontrar alguém com quem eu consiga continuar sendo eu enquanto construo algo novo.',
-  'Numa conversa, você me perguntou o que eu mais tinha medo em entrar num relacionamento. Eu falei tudo: medo de não conseguir dizer quando algo me incomoda, medo de me anular de novo, medo de sofrer um término, medo de largar minha própria vida pelo caminho. Você disse, sem rodeio, que já estava pronta pra namorar. E isso me mostrou o quanto você é especial — e o quanto eu ainda tinha trabalho a fazer.',
-  'Em outro momento você perguntou o que eu queria com você. Foi uma pergunta simples que me fez perceber que eu precisava melhorar a forma como falo do que sinto, e te dar mais segurança do que eu vinha dando.',
-  'Foi por isso, também, que comecei a considerar terapia — coisa que eu sempre resisti, porque achava que dava conta sozinha. O fato de eu estar disposta a tentar já foi, pra mim, uma prova de que aquilo importava de verdade.',
-  'Porque amar alguém, eu percebi, também é escolher ser uma versão melhor de mim — e escolher a companhia dessa pessoa nos dias bons e nos ruins.',
+  'Eu tinha medo de me perder em um relacionamento. Com você, comecei a perceber que talvez dividir a vida com alguém não signifique perder a minha, mas encontrar alguém com quem eu consiga continuar sendo eu enquanto construo algo novo e me transbordo.',
+  'Numa conversa, você me perguntou do que eu mais tinha medo ao entrar em um relacionamento. Eu falei tudo: medo de não conseguir dizer quando algo me incomoda, medo de me anular, medo de sofrer um término, medo de não dar o meu melhor. Enquanto isso, você disse, sem titubear, que já estava pronta pra namorar. E isso me mostrou o quanto você é especial e o quanto você me fazia sentir especial.',
+  'Em outro momento, você perguntou o que eu queria com você. Foi uma pergunta simples que me fez perceber que eu precisava melhorar a forma como falo sobre o que sinto e te dar mais segurança do que eestávamos construindo.',
+  'Foi por isso, também, que comecei a considerar procurar ajuda, fazer terapia, para não repetir erros do passado. Percebi que eu queria ser alguém melhor e saber receber todo esse amor que você tinha pra me dar. Foi assim que eu percebi que EU ESTAVA AMANDO VOCÊ, MEU AMOR, porque amar é escolher aquela pessoa independentemente dos dias bons ou ruins e, principalmente, estar disposta a se doar para ela. E foi isso que eu estava disposta a fazer a partir dali.',
+  'Depois de falar "eu te amo", nossa rotina foi ficando mais corrida e difícil de nos vermos. Mas foi aí que eu percebi o quanto eu sentia saudade, o quanto eu te queria perto de mim e presente em todos os momentos, o quanto eu quero fazer todos os rolês, explorar o mundo com você, o quanto e quero um filho com seus olhões, o quanto eu gosto de te ouvir contar sua história, o quanto eu te admiro, o quanto temos características parecidas e o quanto temos objetivos futuros parecidos.',
 ]
 
 export const nosClosing = [
-  'Eu não sei exatamente como vai ser a nossa rotina.',
-  'Mas hoje eu sei que quero descobrir.',
+  'Tudo isso só me faz querer formalizar o que já estamos vivendo e sentindo...',
 ]
 
 export const nosButton = 'tenho uma pergunta para você →'
 
 export const pedido = {
   warningEyebrow: 'capítulo 04',
-  warningTitle: 'Cuidado: conteúdo sensível',
+  warningTitle: 'Cuidado',
   warningText: 'A partir daqui não tem mais volta.',
   warningButton: 'continuar por sua conta e risco →',
   loadingMessages: [
     'Preparando pergunta importante...',
-    'Verificando batimentos cardíacos...',
   ],
   question: {
     name: 'Nicole Ferreira da Silva,',

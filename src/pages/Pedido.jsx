@@ -44,7 +44,7 @@ export default function Pedido({ onBack }) {
         )}
 
         {stage === 'loading' && (
-          <LoadingScreen messages={pedido.loadingMessages} onDone={() => setStage('question')} />
+          <LoadingScreen messages={pedido.loadingMessages} onDone={() => setStage('question')} msPerMessage={2500} />
         )}
 
         {stage === 'question' && (
