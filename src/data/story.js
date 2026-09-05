@@ -24,9 +24,9 @@ export const eu = {
   title: 'Antes de falar de nós duas, vou reapresentar a pessoa que começou essa história.',
   photo: { file: 'isabel1.jpg', caption: 'eu, antes de saber que você ia aparecer' },
   paragraphs: [
-    'Pra você, Bebel, uma gaiatinha de 25 anos, nerdolinha eee que está há 1 ano e meio no TÍTULO de solteira.',
+    'Pra você, Bebel, uma gaiatinha, zuerinha, implicante, de 25 anos, nerdolinha eee que está há 1 ano e meio no TÍTULO de solteira.',
     'Ela tinha certeza de que demoraria ainda um tempinho para se apaixonar, se entregar e achar alguém que prestasse e que valesse a pena sair da paz da solteirice hahahh.',
-    'Ela tinha alguns protocolos criados na cabeça dela: ir com calma, observar o dia a dia da pessoa para ver como funcionariam juntas, saber se, na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar, observar os relacionamentos dela (amoroso, com os pais, amizades) antes de dar um passo importante. Protocolos de não demonstrar tanto e tão rápido, demorar 3 meses para falar "eu te amo" e uns 6 meses para pedir em namoro...',
+    'Ela tinha alguns protocolos criados na cabeça dela: ir com calma, observar o dia a dia da pessoa para ver como funcionariam juntas, saber se, na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar, observar os relacionamentos dela (passado amoroso, com os pais, amizades) antes de dar um passo importante. Protocolos de não demonstrar tanto e tão rápido, demorar 3 meses para falar "eu te amo" e uns 6 meses para pedir em namoro...',
     'Ela também tinha dificuldade de falar quando alguma coisa a incomodava. Preferia fingir que nada tava acontecendo (ou fazer um bico kakakka). Isso muito porque ela tinha um certo medo de entrar em algo novo e não estar disposta a ser a melhor versão dela.',
     'Queria alguém que a acompanhasse em todos os rolês, alguém que a incentivasse a ser melhor, que respeitasse a sua individualidade.',
   ],
