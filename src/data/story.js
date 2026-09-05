@@ -25,22 +25,22 @@ export const eu = {
   photo: { file: 'isabel1.jpg', caption: 'eu, antes de saber que você ia aparecer' },
   paragraphs: [
     'Pra você, Bebel, uma gaiatinha de 25 anos, nerdolinha eee que está há 1 ano e meio no TÍTULO de solteira.',
-    'Tinha certeza de que demoraria ainda um tempinho para se apaixonar, se entregar, e achar alguém que prestasse e que valesse a pena sair da paz de solterice.',
-    'Ela tinha alguns protocolos criados na cabeça dela: ir com calma, observar o dia a dia da pessoa para ver como funcionariam juntas, saber se na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar, observar os relacionamtos dela (amoroso, com os pais, amizades), antes de tomar um passo importante. Protocolos de não demonstar tanto e tão rápido, demorar 3 meses para falar eu te amo e uns 6 meses para pedir em namoro...',
-    'Ela também tinha dificuldade de falar quando alguma coisa a incomodava. Preferia fingir que nada tava acontecendo (ou fazer um bico kakakka. Isso muito porque ela tinha um certo medo de entrar em algo novo e não estar a disposta a ser a melhor versão dela.',
+    'Ela tinha certeza de que demoraria ainda um tempinho para se apaixonar, se entregar e achar alguém que prestasse e que valesse a pena sair da paz da solteirice hahahh.',
+    'Ela tinha alguns protocolos criados na cabeça dela: ir com calma, observar o dia a dia da pessoa para ver como funcionariam juntas, saber se, na rotina corrida, nas semanas em que se veriam apenas 2 dias, saberiam lidar, observar os relacionamentos dela (amoroso, com os pais, amizades) antes de dar um passo importante. Protocolos de não demonstrar tanto e tão rápido, demorar 3 meses para falar "eu te amo" e uns 6 meses para pedir em namoro...',
+    'Ela também tinha dificuldade de falar quando alguma coisa a incomodava. Preferia fingir que nada tava acontecendo (ou fazer um bico kakakka). Isso muito porque ela tinha um certo medo de entrar em algo novo e não estar disposta a ser a melhor versão dela.',
     'Queria alguém que a acompanhasse em todos os rolês, alguém que a incentivasse a ser melhor, que respeitasse a sua individualidade.',
   ],
   closing: [
     'Ela tinha algumas certezas sobre como queria que fosse o próximo relacionamento.',
-    'Ela só não sabia que alguém apareceria para ela tornar suas certezas levemente flexíveis hahahh.',
+    'Ela só não sabia que alguém apareceria para ela tornar seus protocolos levemente flexíveis hahahh.',
   ],
   button: 'conhecer você →',
 }
 
 export const voce = {
   eyebrow: 'capítulo 02 — meu amor',
-  title: 'Agora deixa eu falar de você.',
-  photo: { file: 'nicole.jpg', caption: 'você, do jeito que eu mais gosto de olhar' },
+  title: 'Agora deixa eu falar da pessoa mais importante dessa história: você, meu amor.',
+  photo: { file: 'nicole1.jpg', caption: 'você, do jeito que eu mais gosto de olhar' },
   intro: [
     'Você demonstra carinho nas pequenas coisas.',
     'Em um café. Em um chocolate. Em uma carta escrita à mão. Em um buquê de flores que eu não esperava. Em uma mensagem perguntando se eu tomei meu remédio.',
@@ -54,6 +54,7 @@ export const voce = {
     'Somos as duas meio ecléticas: gostamos de show de eletrônica e de forró, de balada até o amanhecer e de acordar cedo pra malhar, de restaurante chique e de boteco pé-de-serra sem frescura nenhuma. Um pouco doidinhas, cada uma à sua maneira.',
     'Você é mais baixa que eu, e eu adoro te lembrar disso. Também adoro provocar seu jeito mais quieto — às vezes eu falo, você responde só "sim" ou só "não", e nem percebe que a conversa esperava uma pergunta de volta. Não é falta de vontade de conversar comigo. É só você sendo você, e isso, também, eu acho bonito.',
   ],
+  
   closing: [
     'Foram essas pequenas coisas — nenhuma delas grande o suficiente para virar história sozinha — que fizeram você ocupar, aos poucos, um espaço cada vez maior na minha vida.',
   ],

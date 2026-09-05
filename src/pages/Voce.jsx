@@ -22,7 +22,7 @@ export default function Voce({ onBack, onContinue }) {
         </div>
 
         <Reveal>
-          <PhotoFrame file={voce.photo.file} caption={voce.photo.caption} />
+          <PhotoFrame file={voce.photo.file} caption={voce.photo.caption} aspect="1080 / 1200" />
         </Reveal>
 
         {voce.paragraphs.map((paragraph, i) => (
