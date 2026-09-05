@@ -42,21 +42,19 @@ export const voce = {
   title: 'Agora deixa eu falar da pessoa mais importante dessa história: você, meu amor.',
   photo: { file: 'nicole1.jpg', caption: 'você, do jeito que eu mais gosto de olhar' },
   intro: [
-    'Você demonstra carinho nas pequenas coisas.',
-    'Em um café. Em um chocolate. Em uma carta escrita à mão. Em um buquê de flores que eu não esperava. Em uma mensagem perguntando se eu tomei meu remédio.',
-    'Você percebe quando eu não como direito. Pede comida quando descobre que bateu vontade de doce. Lembra de detalhes que eu nem lembro ter contado.',
+    'Essa mulher linda, meiga, inteligente, carinhosa, atenciosa...',
   ],
-  paragraphs: [
-    'Você me fez admirar não só a forma como você cuida de mim, mas a pessoa que você é fora disso.',
-    'Você tem 25 anos, faz Ciência da Computação, e é organizada e esforçada de um jeito que eu reconheço e respeito — quer crescer profissionalmente, quer estudar, quer trabalhar, quer construir uma família de verdade, com rotina e propósito.',
-    'E ao mesmo tempo, você simplifica as coisas de um jeito que eu não tenho. Onde eu ainda tento controlar cada variável, você olha e resolve com uma leveza que eu queria ter mais.',
-    'Você já passou quatro anos solteira e, mesmo assim, resolveu apostar em mim. Isso eu não esqueço.',
-    'Somos as duas meio ecléticas: gostamos de show de eletrônica e de forró, de balada até o amanhecer e de acordar cedo pra malhar, de restaurante chique e de boteco pé-de-serra sem frescura nenhuma. Um pouco doidinhas, cada uma à sua maneira.',
-    'Você é mais baixa que eu, e eu adoro te lembrar disso. Também adoro provocar seu jeito mais quieto — às vezes eu falo, você responde só "sim" ou só "não", e nem percebe que a conversa esperava uma pergunta de volta. Não é falta de vontade de conversar comigo. É só você sendo você, e isso, também, eu acho bonito.',
-  ],
+paragraphs: [
+    'Você, meu amor, sempre deixou muito claro o que sentia. Desde o começo, me fazia sentir especial, diferente das outras pessoas que você já tinha conhecido, e sempre fazia questão de demonstrar isso.',
+    'Você me incentiva a ser mais disciplinada (mesmo que às vezes me dê um docinho no meio do caminho), me incentiva a ser mais gostosa, me motiva a ser mais estudiosa, a me dedicar mais às coisas e a ser mais família.',
+    'Você me deixa confortável para ser esquisitinha em paz (até porque você também tem as suas peculiaridades heheh). É paciente com meu jeitinho brincalhão, com minhas esquisitices e as entende sem me julgar.',
+    'Você, minha princesa, sempre se preocupa se eu estou confortável, se estou bem, se preciso de alguma coisa, independentemente de eu estar na minha casa, na sua casa ou até quando estamos longe. Percebe cada detalhe e está sempre prestando atenção, fazendo de tudo para que eu me sinta bem.',
+    'E, além de tudo isso, você é organizada, cheirosa, educada, amorosa, lindaaaa, gostosaaa, deliciosa, tem mãozinhas incríveis hihihi, além de ter um coraçãozinho muito bom, que é desproporcional à sua altura. É a minha melhor dupla na cozinha e nos damos muito bem na organização no geral.',
+    'Você tem os melhores presentes e mimos: o primeiro café que você me deu de presente, as cartinhas, o escapulário, os buquês mais mais lindos, o dia em que você pediu cookie no iFood só porque eu estava com vontade de doce. São essas inúmeras coisinhas que talvez pareçam pequenas, mas que sempre me marcam e me fizeram ter mais certeza de que você era a mulher para mim.',
+],
   
   closing: [
-    'Foram essas pequenas coisas — nenhuma delas grande o suficiente para virar história sozinha — que fizeram você ocupar, aos poucos, um espaço cada vez maior na minha vida.',
+    'Foram todos esses detalhes que fizeram você ocupar, aos poucos, um espaço cada vez maior na minha vida.',
   ],
   button: 'conhecer a nossa história →',
 }
