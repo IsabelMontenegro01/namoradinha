@@ -66,7 +66,7 @@ paragraphs: [
 export const nosTimeline = [
   {
     date: '27 de maio de 2026',
-    text: 'Uma quarta-feira qualquer virou a primeira conversa. No Hinge, sem nenhum plano por trás. A gente foi trocando mensagem até tarde da madrugada, e nenhuma das duas percebeu a hora passar.',
+    text: 'Uma quarta-feira qualquer virou a primeira conversa. No Hinge, sem nenhuma perspectiva de dar certo a gente foi trocando mensagem até tarde da madrugada sem perceber a hora passar.',
   },
   {
     date: '3 de junho',
@@ -92,7 +92,7 @@ export const nosTimeline = [
 
 export const nosIntro = {
   eyebrow: 'capítulo 03 — nós',
-  title: 'E então, em algum momento, deixou de ser eu e você. Virou nós.',
+  title: 'E então, começamos a construir a NOSSA história',
 }
 
 export const nosBridge = [
