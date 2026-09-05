@@ -27,7 +27,7 @@ export default function Nos({ onBack, onContinue }) {
             <Reveal key={i} className="nos-timeline-item">
               <span className="nos-date">{item.date}</span>
               <p>{item.text}</p>
-              {item.photo && <PhotoFrame file={item.photo} aspect="4 / 3" />}
+              {item.photo && <PhotoFrame file={item.photo} aspect={item.aspect || '4 / 3'} />}
             </Reveal>
           ))}
         </div>

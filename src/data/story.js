@@ -64,30 +64,114 @@ paragraphs: [
    o site mostra um espaço reservado elegante no lugar — então pode
    deixar sem foto por enquanto e completar depois. */
 export const nosTimeline = [
+
   {
-    date: '27 de maio de 2026',
-    text: 'Uma quarta-feira qualquer virou a primeira conversa. No Hinge, sem nenhuma perspectiva de dar certo a gente foi trocando mensagem até tarde da madrugada sem perceber a hora passar.',
+    date: '27 de maio de 2026 - Primeira conversa',
+    text: 'Uma quarta-feira qualquer virou a primeira conversa. No Hinge, sem nenhuma perspectiva de dar certo, a gente foi trocando mensagens até tarde da madrugada, sem perceber a hora passar.',
   },
+
   {
-    date: '3 de junho',
-    text: 'Primeiro encontro. Bar, depois balada, e a gente ficou por lá até quase 6h da manhã — o tipo de encontro que devia ter durado duas horas e durou a noite inteira. Fomos tomar café numa padaria enquanto a cidade acordava. Eu tomei a iniciativa do nosso primeiro beijo.',
-    photo: 'primeiro-encontro.jpg',
+    date: '3 de junho de 2026 - Primeiro encontro',
+    text: 'Bar, depois balada, e a gente ficou por lá até quase 6h da manhã. Fomos tomar café na padaria. OBS: tomei a iniciativa do primeiro beijo e das saliências.',
+    photo: 'primeiro-date.jpg',
+    aspect: '1080 / 1200',
   },
+
   {
-    date: 'as semanas seguintes',
-    text: 'Um festival de café que você já tinha comprado pouco depois de me conhecer — e que você já tinha até planejado o que fazer caso eu não pudesse ir. Isso, sozinho, já dizia muito sobre como você é.',
-    photo: 'festival-cafe.jpg',
+    date: '14 de junho de 2026 - Primeiro Airbnb',
+    text: 'Ainda muito tímidas, nos divertimos no CTN, tivemos nossos primeiros toques e ainda bebemos vinho no Airbnb. Observação: eu estava há 5 dias bebendo direto hahha.',
+    photo: 'primeiro-airbnb.jpg',
+    aspect: '1080 / 1200',
   },
+
   {
-    date: 'depois de um jogo do Brasil, em Santo André',
-    text: 'Eu bebi mais do que devia e o metrô fechou antes de eu voltar pra São Paulo. Você me chamou pra dormir na sua casa — com seus pais lá — sem pestanejar. Se preocupou se eu estava confortável, ofereceu pijama, e no dia seguinte fez café e misto pra mim antes de eu ir embora. Eu me senti acolhida de um jeito que eu não esperava sentir tão cedo.',
+    date: '24 de junho de 2026 - Primeira vez em Santo André',
+    text: 'Jogo do Brasil mais emocionante da minha vida hahahh.',
     photo: 'santo-andre.jpg',
+    aspect: '1080 / 1200',
   },
+
   {
-    date: 'julho',
-    text: 'De férias, a gente finalmente teve tempo de sobra. E foi aí que a relação deixou de ser só encontros e começou a virar rotina: cozinhar juntas, dormir juntas, assistir filme, conversar horas sem perceber, dividir tarefa boba de casa. Você chegava com cartinha, doce, chocolate, escapulário, energético, flor — sempre alguma coisinha, sempre sem eu pedir.',
-    photo: 'ferias-julho.jpg',
+    date: '27 de junho de 2026 - Festival de café',
+    text: 'Festival que você já tinha comprado pouco depois de me conhecer, mesmo sem eu dar certeza de que conseguiria ir — ou melhor, sem saber se a gente estaria juntas kakak.',
+    photo: 'festival-cafe.jpg',
+    aspect: '1080 / 1200',
   },
+
+  {
+    date: 'Semanas seguintes',
+    text: 'Muitas idas ao Share, muitos vinhos, jantares cozinhados por nós duas juntas, convivência de casadas, discussões mais profundas, etc...',
+    photo: 'semanas-seguintes.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '10 de julho de 2026 - Primeiras fotinhas no Share',
+    photo: 'foto-share.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: 'Mais bares',
+    photo: 'mais-bares.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '14 de julho de 2026 - Primeira videochamada',
+    text: 'Eu estava em GV e você, com saudade (e eu também), sugeriu ligarmos por vídeo. Ficamos 2h conversando sem parar, com direito a uma mini DR.',   
+    photo: 'primeira-videochamada.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '18 de julho de 2026 - Primeiro buquê',
+    text: 'O buquê mais lindo que eu já ganhei, com uma sensação indescritível quando o vi no carro.',    
+    photo: 'primeiro-buque.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '28 de julho de 2026 - Primeiro treino juntas',
+    photo: 'primeiro-treino.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '29 de julho de 2026 - Primeiro "te amo"',
+    text: 'Eu, toda gaizinha, já tinha percebido que te amava e coloquei a música de contexto para dizer que "amar você é leve".',    
+    photo: 'te-amo.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '2 de agosto de 2026 - Primeiro rolê de eletrônica',
+    text: 'Essa foi a festa de eletrônica a que fomos oficialmente juntas. Bebemos, dançamos e curtimos muito.',   
+    photo: 'eletronica.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '9 de agosto de 2026 - Conhecendo sua mamãe',
+    text: 'O festival que você já tinha comprado pouco depois de me conhecer, mesmo sem eu dar certeza de que conseguiria ir — ou melhor, sem saber se a gente estaria juntas kakak.',    
+    photo: 'conhecendo-mae.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: '14 de agosto de 2026 - Primeira festa do Inteli',
+    text: 'A primeira festa do Inteli juntas. Mais uma oportunidade de beber, dançar, curtir e criar mais uma memória nossa.',   
+    photo: 'festa-inteli.jpg',
+    aspect: '1080 / 1200',
+  },
+
+  {
+    date: 'Mediocridade do dia a dia',
+    text: 'Que possamos viver muito a mediocridade do dia a dia.',   
+    photo: 'mediocridade.jpg',
+    aspect: '1080 / 1200',
+  },
+
 ]
 
 export const nosIntro = {
@@ -96,7 +180,7 @@ export const nosIntro = {
 }
 
 export const nosBridge = [
-  'Eu tinha alguns protocolos.',
+  'Agora, relembrando meus protocolos.',
 ]
 
 /* O elemento central desta página: os protocolos que a Isabel
